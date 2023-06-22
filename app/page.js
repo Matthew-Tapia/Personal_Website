@@ -28,7 +28,7 @@ const Home = () => {
       <div className="mx-24 mt-24">
         <div className="welcome-section mb-20 text-sky-950">
           <h1 className="lg:text-6xl text-5xl font-medium">
-            Hello, I'm Matthew. <br /> I'm a Software Engineer.
+            Hello, I&apos;m Matthew. <br /> I&apos;m a Software Engineer.
           </h1>
 
           <h2 className="lg:text-2xl text-xl my-10 font-light">
