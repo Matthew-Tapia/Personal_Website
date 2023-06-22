@@ -37,8 +37,13 @@ const Home = () => {
         </div>
 
         <div className="project-section">
-          {projects.map((item) => (
-            <Project url={item.url} text={item.text} img={item.img} />
+          {projects.map((item, index) => (
+            <Project
+              key={"${item.text.title}+${index}"}
+              url={item.url}
+              text={item.text}
+              img={item.img}
+            />
           ))}
         </div>
       </div>
