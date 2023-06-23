@@ -39,7 +39,7 @@ const Home = () => {
         <div className="project-section">
           {projects.map((item, index) => (
             <Project
-              key={"${item.text.title}+${index}"}
+              key={"${item.text.title}${index}"}
               url={item.url}
               text={item.text}
               img={item.img}
