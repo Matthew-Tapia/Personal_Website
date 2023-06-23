@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +19,13 @@ const Navbar = () => {
           onClick={toggleNavbar}
         >
           <FontAwesomeIcon icon={faBars} />
+        </button>
+
+        <button
+          className={"my-3 lg:hidden " + (isOpen ? "block" : "hidden")}
+          onClick={toggleNavbar}
+        >
+          <FontAwesomeIcon icon={faArrowLeft} />
         </button>
 
         <ul
