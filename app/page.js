@@ -25,7 +25,7 @@ const projects = [
 const Home = () => {
   return (
     <div className="overflow-scroll">
-      <div className="mx-24 mt-14 lg:mt-24">
+      <div className="text-center lg:text-left mx-24 mt-8 lg:mt-24">
         <div className="welcome-section mb-20 text-sky-950">
           <h1 className="lg:text-6xl text-5xl font-medium">
             Hello, I&apos;m Matthew. <br /> I&apos;m a Software Engineer.

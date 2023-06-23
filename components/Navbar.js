@@ -13,20 +13,21 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="mx-auto px-8 py-6">
-        <button
-          className={"lg:hidden " + (isOpen ? "hidden" : "block")}
-          onClick={toggleNavbar}
-        >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-
-        <button
-          className={"my-3 lg:hidden " + (isOpen ? "block" : "hidden")}
-          onClick={toggleNavbar}
-        >
-          <FontAwesomeIcon icon={faArrowLeft} />
-        </button>
+      <div className="px-8 py-6">
+        <div className="text-sky-950">
+          <button
+            className={"lg:hidden " + (isOpen ? "hidden" : "block")}
+            onClick={toggleNavbar}
+          >
+            <FontAwesomeIcon size="xl" icon={faBars} />
+          </button>
+          <button
+            className={"my-3 lg:hidden " + (isOpen ? "block" : "hidden")}
+            onClick={toggleNavbar}
+          >
+            <FontAwesomeIcon size="lg" icon={faArrowLeft} />
+          </button>
+        </div>
 
         <ul
           className={
