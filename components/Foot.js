@@ -21,7 +21,7 @@ const Foot = () => {
         <div className="mt-2 text-xs">Created with Next.js</div>
 
         <div className="mt-2 text-xs">
-          <FontAwesomeIcon icon={faCopyright} /> 2023Matthew Tapia
+          <FontAwesomeIcon icon={faCopyright} /> 2023 Matthew Tapia
         </div>
       </div>
     </div>
