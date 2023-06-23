@@ -9,7 +9,7 @@ const Project = ({ url, img, text }) => {
           <a target="_blank" href={url}>
             <div className="rounded-lg border border-amber-200 bg-gradient-to-br from-neutral-500 from-20% to-amber-500">
               <Image
-                className="mix-blend-overlay rounded-lg drop-shadow-2xl"
+                className="w-full mix-blend-overlay rounded-lg drop-shadow-2xl"
                 height={500}
                 width={500}
                 src={img}
