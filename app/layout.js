@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className={source_code_pro.className}>
-        <div className="bg-gradient-to-b from-sky-100 via-sky-800 to-sky-950">
+        <div className="bg-gradient-to-b from-sky-100 via-sky-900 to-sky-950">
           <header>
             <Navbar />
           </header>
