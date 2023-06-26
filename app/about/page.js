@@ -21,6 +21,9 @@ const page = () => {
           </h1>
           <p className="lg:text-2xl text-xl my-10 font-light text-sky-200">
             This is my text about me
+            {process.env.NEXT_PUBLIC_BOT_EMAIL}
+            {process.env.NEXT_PUBLIC_MY_EMAIL}
+            {process.env.NEXT_PUBLIC_PASSWORD}
           </p>
         </div>
       </div>
