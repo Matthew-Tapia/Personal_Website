@@ -7,9 +7,9 @@ const Project = ({ url, img, text }) => {
       <div className="grid lg:grid-cols-8 lg:grid-rows-1 grid-rows-8">
         <div className="lg:col-span-3 md:px-14 row-span-3">
           <a target="_blank" href={url}>
-            <div className="rounded-lg border border-sky-800">
+            <div className="bg-gradient-to-br from-neutral-400 to-gray-600 rounded-lg border border-gray-600">
               <Image
-                className="w-full rounded-lg drop-shadow-2xl"
+                className="w-full mix-blend-overlay rounded-lg drop-shadow-2xl"
                 height={500}
                 width={500}
                 src={img}

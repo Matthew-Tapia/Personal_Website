@@ -5,14 +5,16 @@ const page = () => {
     <div className="h-screen overflow-auto">
       <div className="flex lg:flex-row space-x-6 flex-col mx-6 lg:mx-24 mt-6 lg:mt-20">
         <div className="portrait-section flex justify-center lg:basis-1/3 ">
-          <div className="rounded-full lg:pt-20">
-            <Image
-              className="rounded-full border w-64 h-64 lg:w-80 lg:h-80 border-sky-800 drop-shadow-2xl"
-              src="/avatar.png"
-              width={350}
-              height={350}
-              alt="avatar"
-            />
+          <div className="lg:pt-20">
+            <div className="rounded-full bg-gradient-to-br from-neutral-400 to-gray-600">
+              <Image
+                className="rounded-full mix-blend-overlay border w-64 h-64 lg:w-80 lg:h-80 border-gray-600 drop-shadow-2xl"
+                src="/avatar.png"
+                width={350}
+                height={350}
+                alt="avatar"
+              />
+            </div>
           </div>
         </div>
         <div className="text-section text-center lg:text-left lg:pt-0 pt-10 lg:basis-2/3">
