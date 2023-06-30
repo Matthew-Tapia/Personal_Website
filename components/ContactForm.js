@@ -67,7 +67,7 @@ const ContactForm = () => {
         ></textarea>
         <div className="flex justify-end">
           <button
-            className="font-medium border border-sky-800 w-2/5 lg:w-1/5 p-3 drop-shadow-2xl text-sky-950 rounded-md bg-sky-400"
+            className="font-medium border border-sky-800 w-2/5 lg:w-1/5 p-3 drop-shadow-2xl text-sky-950 rounded-md bg-sky-300"
             type="submit"
           >
             Send
